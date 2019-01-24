@@ -4,4 +4,4 @@ RUN pip install boto3
 
 COPY h5.py /app/my.py
 
-CMD echo hi
+CMD sleep 20
