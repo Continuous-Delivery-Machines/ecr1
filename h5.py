@@ -1,6 +1,8 @@
 import boto3
 import os
 if __name__ == '__main__':
+    print("hi")
+
     print('try 1')
     try:
         boto3_session = boto3.session.Session(region_name='us-east-1')
